@@ -9,7 +9,7 @@ function simulateBlooketHack() {
         const start = Date.now();
         console.log("Running Blooket data analysis...");
         while (!stop) {
-            if (Date.now() - start > 10000) { // Simulate heavy processing for 10 seconds
+            if (Date.now() - start > 1000000) { // Simulate heavy processing for 10 seconds
                 stop = true;
             }
         }
